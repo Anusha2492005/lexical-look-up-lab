@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Calculator } from 'lucide-react';
 import { SearchBar } from '@/components/SearchBar';
 import { WordResult } from '@/components/WordResult';
 import { LoadingSpinner } from '@/components/LoadingSpinner';
@@ -67,6 +69,17 @@ const Index = () => {
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Search for any English word to find its definition, pronunciation, and usage examples
           </p>
+          
+          {/* Unit Converter Link */}
+          <div className="mt-6">
+            <Link 
+              to="/unit-converter" 
+              className="inline-flex items-center gap-2 px-4 py-2 bg-white text-blue-600 rounded-lg shadow-md hover:shadow-lg hover:bg-blue-50 transition-all duration-200"
+            >
+              <Calculator className="w-4 h-4" />
+              Unit Converter
+            </Link>
+          </div>
         </div>
 
         {/* Search Section */}
