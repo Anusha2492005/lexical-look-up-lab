@@ -5,7 +5,7 @@ import { Calculator, ArrowLeft } from 'lucide-react';
 
 const NotFound = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-white via-slate-100 to-white text-gray-800 flex items-center justify-center">
       <div className="text-center">
         <Calculator className="w-16 h-16 text-blue-600 mx-auto mb-6" />
         <h1 className="text-6xl font-bold text-gray-800 mb-4">404</h1>
