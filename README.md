@@ -1,124 +1,73 @@
+# Welcome to your Lovable project
 
-# 🔄 Unit Converter Web App
+## Project info
 
-A modern, responsive unit conversion application built with React and TypeScript that provides instant conversions between metric and imperial units with a beautiful, professional interface.
+**URL**: https://lovable.dev/projects/7ad76090-c8f7-4cb4-a76c-326f8122e1b3
 
-![Unit Converter App](https://via.placeholder.com/800x400/10B981/FFFFFF?text=Unit+Converter+App)
+## How can I edit this code?
 
-## ✨ Features
+There are several ways of editing your application.
 
-- **Multiple Unit Types**: Convert between length, weight, distance, and temperature units
-- **Real-time Conversion**: See results instantly as you type
-- **Bidirectional Conversion**: Easy toggle between metric and imperial units
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Modern UI**: Clean, intuitive interface with beautiful gradients and smooth animations
-- **Professional Styling**: Emerald and teal gradient background with polished components
+**Use Lovable**
 
-## 🔧 Supported Conversions
+Simply visit the [Lovable Project](https://lovable.dev/projects/7ad76090-c8f7-4cb4-a76c-326f8122e1b3) and start prompting.
 
-### 📏 Length
-- Centimeters ⇄ Inches
-- Meters ⇄ Feet
+Changes made via Lovable will be committed automatically to this repo.
 
-### ⚖️ Weight  
-- Kilograms ⇄ Pounds
-- Grams ⇄ Ounces
+**Use your preferred IDE**
 
-### 🚗 Distance
-- Kilometers ⇄ Miles
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 🌡️ Temperature
-- Celsius ⇄ Fahrenheit
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## 🚀 Live Demo
+Follow these steps:
 
-[View Live Demo](https://your-app-url.lovable.app)
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## 🛠️ Technologies Used
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-- **React 18** - Modern React with hooks and functional components
-- **TypeScript** - Type-safe development for better code quality
-- **Tailwind CSS** - Utility-first CSS framework for rapid styling
-- **Shadcn/ui** - High-quality, accessible UI components
-- **Lucide React** - Beautiful, customizable icons
-- **Vite** - Fast build tool and development server
-- **React Router** - Client-side routing
+# Step 3: Install the necessary dependencies.
+npm i
 
-## 📦 Installation & Setup
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/yourusername/unit-converter-app.git
-cd unit-converter-app
-```
-
-2. **Install dependencies:**
-```bash
-npm install
-```
-
-3. **Start development server:**
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-4. **Build for production:**
-```bash
-npm run build
-```
+**Edit a file directly in GitHub**
 
-## 🏗️ Project Structure
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-```
-src/
-├── components/
-│   ├── UnitConverterMain.tsx    # Main converter component
-│   ├── converters/              # Individual converter components
-│   │   ├── LengthConverter.tsx
-│   │   ├── WeightConverter.tsx
-│   │   ├── DistanceConverter.tsx
-│   │   └── TemperatureConverter.tsx
-│   └── ui/                      # Shadcn/ui components
-├── pages/
-│   ├── Index.tsx               # Main application page
-│   └── NotFound.tsx            # 404 error page
-└── lib/                        # Utility functions
-```
+**Use GitHub Codespaces**
 
-## 🎨 Design Features
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-- **Beautiful Gradient Background**: Emerald to teal gradient (`from-emerald-50 via-teal-50 to-cyan-50`)
-- **Modern Typography**: Gradient text effects for headings
-- **Smooth Animations**: Hover effects and transitions
-- **Professional Color Scheme**: Emerald and teal accent colors
-- **Responsive Layout**: Mobile-first design approach
+## What technologies are used for this project?
 
-## 🔧 Available Scripts
+This project is built with:
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-## 🤝 Contributing
+## How can I deploy this project?
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Simply open [Lovable](https://lovable.dev/projects/7ad76090-c8f7-4cb4-a76c-326f8122e1b3) and click on Share -> Publish.
 
-## 📝 License
+## Can I connect a custom domain to my Lovable project?
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Yes, you can!
 
-## 🙏 Acknowledgments
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-- Built with [Lovable](https://lovable.dev) - AI-powered web development
-- Icons by [Lucide](https://lucide.dev)
-- UI components by [Shadcn/ui](https://ui.shadcn.com)
-- Styling with [Tailwind CSS](https://tailwindcss.com)
-
----
-
-**Made with ❤️ and modern web technologies**
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
