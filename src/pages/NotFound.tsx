@@ -1,24 +1,25 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Calculator, ArrowLeft } from 'lucide-react';
 
 const NotFound = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    console.error(
-      "404 Error: User attempted to access non-existent route:",
-      location.pathname
-    );
-  }, [location.pathname]);
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 text-gray-800 flex items-center justify-center">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+        <Calculator className="w-16 h-16 text-emerald-600 mx-auto mb-6" />
+        <h1 className="text-6xl font-bold text-gray-800 mb-4">404</h1>
+        <h2 className="text-2xl font-semibold text-gray-600 mb-4">Page Not Found</h2>
+        <p className="text-gray-500 mb-8 max-w-md mx-auto">
+          The page you're looking for doesn't exist. Let's get you back to converting units!
+        </p>
+        <Link 
+          to="/" 
+          className="inline-flex items-center gap-2 bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Unit Converter
+        </Link>
       </div>
     </div>
   );
