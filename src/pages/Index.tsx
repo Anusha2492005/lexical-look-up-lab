@@ -5,13 +5,13 @@ import { UnitConverterMain } from '@/components/UnitConverterMain';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-white via-slate-100 to-white text-gray-800">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 text-gray-800">
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Calculator className="w-12 h-12 text-blue-600" />
-            <h1 className="text-5xl font-bold text-gray-800">
+            <Calculator className="w-12 h-12 text-emerald-600" />
+            <h1 className="text-5xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
               Unit Converter
             </h1>
           </div>
